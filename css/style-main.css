@@ -3,19 +3,10 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:        DentalPro
-Version:        3.0
-Last change:    12.10.2017
-Primary use:    DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template
-Author:         ThemeMascot
-URL:            http://themeforest.net/user/ThemeMascot
+Project:        Bio Life
+Author:         Rhombus
+URL:            http://rhombusitsolutions.com/
 -------------------------------------------------------------------*/
-
-
-/*
-This file contains the common styles of this theme.
-*/
-
 
 /*------------------------------------------------------------------
 [table of contents]
@@ -1202,6 +1193,10 @@ section>.container-fluid {
     padding: 0;
 }
 
+.header-middle{
+    display: none;
+}
+
 .header-top .widget {
     line-height: 2.5rem;
     margin-bottom: 0;
@@ -1607,7 +1602,7 @@ section>.container-fluid {
 /* Modern Header */
 
 .modern-header .header-nav .header-nav-wrapper {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     position: absolute;
     z-index: 1111;
     left: 0;
@@ -1635,7 +1630,8 @@ section>.container-fluid {
 
 @media only screen and (min-width: 1001px) {
     .modern-header .header-nav .header-nav-wrapper .menuzord-menu>li>a {
-        color: #fff;
+        /* color: #fff; */
+        color: #000;
     }
 }
 
@@ -1657,7 +1653,7 @@ section>.container-fluid {
 }
 
 .modern-header:not(.modern-header-nav-autopadding) .menuzord-menu>li>a {
-    padding: 25px 30px;
+    padding: 30px;
 }
 
 .modern-header.modern-header-white .header-nav .header-nav-wrapper:not(.scroll-to-fixed-fixed) nav {
@@ -1830,6 +1826,11 @@ section>.container-fluid {
 
 .header-nav .header-nav-wrapper {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff !important;
+}
+
+.header-nav .header-nav-wrapper nav{
+    background-color: #fff !important;
 }
 
 .header-nav .header-nav-absolute-wrapper {
@@ -7006,6 +7007,10 @@ blockquote p {
  * -----------------------------------------------
 */
 
+.main-content{
+    /* margin-top: 70px; */
+}
+
 .divider,
 .parallax {
     background-repeat: repeat;
@@ -10476,4 +10481,11 @@ body.has-fixed-footer .main-content {
     body.has-fixed-footer .main-content {
         margin-bottom: 0 !important;
     }
+}
+
+.sidemenu{
+    display: none;
+}
+.sidemenu_section{
+    display: none;
 }
